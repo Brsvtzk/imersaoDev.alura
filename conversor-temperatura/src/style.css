@@ -1,0 +1,117 @@
+body {
+  background-image:url("https://image.freepik.com/free-vector/cold-warm-thermometer-temperature-weather-thermometers-celsius-fahrenheit-meteorology-scale-temp-control-device-icon_176411-553.jpg");
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #e9e9e9;
+  background-size: 350px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+
+.image-bg {
+  opacity: 0.2;
+  position: center;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: auto;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+select{
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+.label {
+  color: black;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.insidecontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+
+}
+
+.page-title {
+  color: gray;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: gray;
+  margin-top: 5px;
+}
+
+temperatura{
+  color: blue;
+   text-align: center;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.page-aprovado {
+  color: #028900;
+  margin-top: 5px;
+}
+
+.conversor {
+  color: #999999;
+  margin-top: 5px;
+}
+
+.page-reprovado {
+  color: #cd0000;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+img{
+  background-color: gray;
+}
+
+.parent {
+  background: mediumpurple;
+  padding: 1rem;
+}
+.child {
+  border: 1px solid indigo;
+  padding: 1rem;
+}
+
+.grid-parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
